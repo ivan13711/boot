@@ -1,0 +1,29 @@
+
+.coll_1{
+  background:  #D3D3D3;
+  height: 300px;
+}
+.coll_2{
+  text-align: justify;
+
+}
+.coll_2 img{
+  margin: auto;
+  display: block;
+}
+.coll_3{
+  background:  #D3D3D3;
+    height: 300px;
+}
+ .coll_1_3_1{
+ background:  #D3D3D3;
+height: 300px;
+ }
+header{
+  background: #696969;
+  text-align: center;
+}
+footer{
+  background: #696969;
+  text-align: center;
+}
