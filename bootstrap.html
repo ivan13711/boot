@@ -1,86 +1,232 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="zxx" dir="ltr">
 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="boot.css">
-    <title>https://imgur.com/a/iJzqcAl</title>
-  </head>
-  <body>
-<div class="container-fluid">
-  <header>
-    <h1>Layout shifter pattern</h1>
-    <p> pleas re-size the windows</p>
-  </header>
-  <main>
-<div class="row">
-  <div class="col-md-12 visible-md ">
-    <div class="coll_1_3_1">
-  <nav>
-    <ul>
-      <li> <a href="#"> <img src="" alt=""></a>  </li>
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
 
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="boot.css">
+    <title> Адаптивная верстка</title>
+</head>
 
-    </ul>
-  </nav>
-  </div>
+<body>
+    <div class="container">
+        <header class="fixed-top">
+            <h1>Layout shifter pattern</h1>
+            <p> pleas re-size the windows</p>
+        </header>
+        <main>
+            <div class="row">
+                <div class="col-md-12 visible-md ">
+                    <div class="coll_1_3_1">
+                        <nav>
+                            <p><a href="#">You also might like</a></p>
+                            <ul>
+                                <li>
+                                    <p>
+                                        <a href="https://www.football.by/"> <img class="img-responsive" src="img/football.png" alt="football"> </a>
+                                    </p>
+                                    <p><a href="https://www.football.by/"> football</a> </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href="https://rugby.ru/"> <img class="img-responsive" src="img/rugby.png" alt="rugby"> </a>
+                                    </p>
+                                    <p><a href="https://rugby.ru/"> rugby</a> </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <a href="https://croatia.hr/ru-RU/experiences/active/sport-fishing"> <img class="img-responsive" src="img/sailing.png" alt="sailing"> </a>
+                                    </p>
+                                    <p><a href="https://croatia.hr/ru-RU/experiences/active/sport-fishing"> sailing</a> </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <a href="http://tabletennis.by"> <img class="img-responsive" src="img/table_tenis.png" alt="table_tenis"> </a>
+                                    </p>
+                                    <p><a href="http://tabletennis.by"> table tenis</a> </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <a href="https://mhealth.ru/form/girevoj_sport_6_uprazhnenij_ot_odnogo_iz_luchshih_trenerov_anglii/"> <img class="img-responsive" src="img/weightlifting.png" alt="weightlifting"> </a>
+                                    </p>
+                                    <p><a href="https://mhealth.ru/form/girevoj_sport_6_uprazhnenij_ot_odnogo_iz_luchshih_trenerov_anglii/"> weightlifting</a> </p>
+                                </li>
+
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class=" col-lg-8 col-lg-push-2 col-md-8 col-sm-8 col-sm-push-4 col-xs-12 ">
+
+                    <article class="arhery" id="arher" id="noarher">
+                        <h2>  Archery at the 2016 Summer Olimpics</h2>
+                        <img class="img-responsive" src="img/arch.jpg" alt=" Archery">
+                        <div class="list row  ">
+                            <div class=" col-lg-10 col-md-10 col-sm-10  col-xs-12">
+                                <p class="text-justify "> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                </p>
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-sm-2  col-xs-2">
+                                <a href="#arher">More...</a>
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-sm-2  col-xs-2">
+                                <a href="#noarher" class="bottom"> Back </a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="atllet" id="atlet" id="noatlet">
+                        <h2>  Athletics qualification for Rio 2016</h2>
+                        <img class="img-responsive" src="img/atllet.jpg" alt=" atllet">
+                        <div class="list row  ">
+                            <div class=" col-lg-10 col-md-10 col-sm-10  col-xs-12">
+                                <p class="text-justify "> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                </p>
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-sm-2  col-xs-2">
+                                <a href="#atlet">More...</a>
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-sm-2  col-xs-2">
+                                <a href="#noatlet" class="bottom"> Back </a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="basket" id="basket" id="nobasket">
+                        <h2>  Basketball strategy</h2>
+                        <img class="img-responsive" src="img/basket.jpg" alt=" basket">
+                        <div class="list row  ">
+                            <div class=" col-lg-10 col-md-10 col-sm-10  col-xs-12">
+                                <p class="text-justify "> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                </p>
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-sm-2  col-xs-2">
+                                <a href="#basket">More...</a>
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-sm-2  col-xs-2">
+                                <a href="#nobasket" class="bottom"> Back </a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="vol" id="vol" id="novol">
+                        <h2>  Beach Volleyball - how to get in shape?</h2>
+                        <img class="img-responsive" src="img/vol.jpg" alt=" Volleyball">
+                        <div class="list row  ">
+                            <div class=" col-lg-10 col-md-10 col-sm-10  col-xs-12">
+                                <p class="text-justify "> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                </p>
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-sm-2  col-xs-2">
+                                <a href="#vol">More...</a>
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-sm-2  col-xs-2">
+                                <a href="#novol" class="bottom"> Back </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="  col-lg-2  col-lg-pull-8 col-md-4 col-sm-4 col-sm-pull-8 col-xs-12 ">
+                    <div class="coll_1">
+                        <nav>
+                            <p> <a href="#">Recently visited</a></p>
+                            <ul>
+                                <li>
+                                    <p>
+                                        <a href="#arher"> <img class="img-responsive" src="img/archery.png" alt="archery"> </a>
+                                    </p>
+                                    <p><a href="#rher"> arhery</a> </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <a href="#atlet"> <img class="img-responsive" src="img/athletics.png" alt="athletics"> </a>
+                                    </p>
+                                    <p><a href="#atlet"> athletics</a> </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <a href="#basket"> <img class="img-responsive" src="img/basketball.png" alt="basketball"> </a>
+                                    </p>
+                                    <p><a href="#basket"> basketball</a> </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <a href="#vol"> <img class="img-responsive" src="img/beach.png" alt="beach"> </a>
+                                    </p>
+                                    <p><a href="#vol"> beach volleyball</a> </p>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-sm-12 col-xs-12 hidden-md">
+                    <div class="coll_3">
+                        <nav>
+                            <p> <a href="#">You also might like</a></p>
+                            <ul>
+                                <li>
+                                    <p>
+                                        <a href="https://www.football.by/"> <img src="img/football.png" alt="football"> </a>
+                                    </p>
+                                    <p><a href="https://www.football.by/"> football</a> </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href="https://rugby.ru/"> <img src="img/rugby.png" alt="rugby"> </a>
+                                    </p>
+                                    <p><a href="https://rugby.ru/"> rugby</a> </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <a href="https://croatia.hr/ru-RU/experiences/active/sport-fishing"> <img src="img/sailing.png" alt="sailing"> </a>
+                                    </p>
+                                    <p><a href="https://croatia.hr/ru-RU/experiences/active/sport-fishing"> sailing</a> </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <a href="http://tabletennis.by"> <img src="img/table_tenis.png" alt="table_tenis"> </a>
+                                    </p>
+                                    <p><a href="http://tabletennis.by"> table tenis</a> </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <a href="https://mhealth.ru/form/girevoj_sport_6_uprazhnenij_ot_odnogo_iz_luchshih_trenerov_anglii/"> <img src="img/weightlifting.png" alt="weightlifting"> </a>
+                                    </p>
+                                    <p><a href="https://mhealth.ru/form/girevoj_sport_6_uprazhnenij_ot_odnogo_iz_luchshih_trenerov_anglii/"> weightlifting</a> </p>
+                                </li>
+
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+            </div>
+
+        </main>
+
+        <footer class="fixed-bottom">
+            <h1>Footer</h1>
+        </footer>
     </div>
-</div>
-    <div class="row">
 
-      <div class=" col-lg-3 col-md-4 col-sm-4 col-xs-12" >
-            <div class="coll_1">
+</body>
 
-        </div>
-      </div>
-      <div class=" col-lg-6 col-md-8 col-sm-8  col-xs-12">
-        <div class="coll_2">
-        <article class="">
-          <h2>  Archery at the 2016 Summer Olimpics</h2>
-          <img src="img/arch.jpg" alt=" лучник">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-        </article>
-        <article class="">
-          <h2>  Archery at the 2016 Summer Olimpics</h2>
-          <img src="img/atllet.jpg" alt=" лучник">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-        </article>
-        <article class="">
-          <h2>  Archery at the 2016 Summer Olimpics</h2>
-          <img src="img/bas.jpg" alt=" лучник">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-        </article>
-        <article class="">
-          <h2>  Archery at the 2016 Summer Olimpics</h2>
-          <img src="img/vol.jpg" alt=" лучник">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-        </article>
-        </div>
-
-      </div>
-      <div class=" col-lg-3  hidden-md col-sm-12 col-xs-12">
-        <div class="coll_3">
-
-        </div>
-      </div>
-    </div>
-  </main>
-  <footer>
-    <h1>Footer</h1>
-  </footer>
-</div>
-
-  </body>
 </html>

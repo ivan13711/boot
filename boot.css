@@ -1,29 +1,134 @@
+header {
+	background: #333333;
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
 
-.coll_1{
-  background:  #D3D3D3;
-  height: 300px;
+li {
+	list-style-type: none;
 }
-.coll_2{
-  text-align: justify;
 
+.coll_1_3_1 {
+	background: #f7f7f7;
+	padding-top: 50px;
 }
-.coll_2 img{
-  margin: auto;
-  display: block;
+
+.coll_1_3_1 nav li {
+	display: inline-block;
+	margin-left: 9%;
+	color: green;
 }
-.coll_3{
-  background:  #D3D3D3;
-    height: 300px;
+
+.coll_1_3_1 nav li:first-child {
+	margin-left: 0;
 }
- .coll_1_3_1{
- background:  #D3D3D3;
-height: 300px;
- }
-header{
-  background: #696969;
-  text-align: center;
+
+.coll_1_3_1 nav li a {
+	color: green;
 }
-footer{
-  background: #696969;
-  text-align: center;
+
+.coll_1_3_1 nav ul {
+	display: inline;
+	padding-right: 12%;
+	padding-left: 12%;
+}
+
+.coll_1_3_1 img {
+	width: 120%;
+}
+
+.coll_1_3_1 nav p {
+	text-align: center;
+}
+
+nav img {
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.img-responsive {
+	display: inline;
+}
+
+.coll_1 {
+	padding-top: 20px;
+	background: #f7f7f7;
+	text-align: center;
+}
+
+.coll_1 ul {
+	padding: 20px;
+	text-align: center;
+}
+
+.coll_1 li {
+	display: inline;
+}
+
+.coll_1 li a {
+	color: green;
+}
+
+.coll_1 img {
+	max-width: 100%;
+}
+
+.coll_3 {
+	padding-top: 20px;
+	background: #f7f7f7;
+	text-align: center;
+}
+
+.coll_3 ul {
+	padding: 20px;
+}
+
+.coll_3 li a {
+	color: green;
+}
+
+article p {
+	overflow: hidden;
+	height: 80px;
+}
+
+article a {
+	display: inline-block;
+	background: #337ab7;
+	color: white;
+	border-radius: 5px;
+	padding: 5px;
+	margin-right: 2%;
+	margin-top: 5px;
+}
+
+article img {
+	margin-bottom: 10px;
+	box-shadow: 5px 5px 10px 0px black;
+}
+
+#arher:target p,
+#atlet:target p,
+#basket:target p,
+#vol:target p {
+	overflow-x: visible;
+	height: auto;
+}
+
+#noarher #noatlet #nobasket #novol:target {
+	overflow: hidden;
+	height: 80px;
+}
+
+footer {
+	background: #333333;
+	text-align: center;
+	color: white;
+	padding: 10px;
+}
+
+footer h1 {
+	margin-bottom: 0;
 }
